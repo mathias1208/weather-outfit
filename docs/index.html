@@ -1,3 +1,4 @@
+
 <!doctype html>
 
 <html lang="en">
@@ -10,16 +11,140 @@
         content="width=device-width, initial-scale=1"
     >
 
-    <title>Weather outfit</title>
+    <title>Today's outfit</title>
+
+    <style>
+        body {
+            font-family:
+                system-ui,
+                -apple-system,
+                BlinkMacSystemFont,
+                sans-serif;
+
+            max-width: 720px;
+            margin: auto;
+            padding: 18px;
+
+            background: #f4f7fb;
+            color: #172033;
+        }
+
+        h1 {
+            margin-bottom: 4px;
+        }
+
+        section {
+            background: white;
+            border-radius: 18px;
+            padding: 20px;
+            margin: 14px 0;
+
+            box-shadow:
+                0 3px 14px
+                rgba(23, 32, 51, 0.07);
+        }
+
+        .hero {
+            background:
+                linear-gradient(
+                    135deg,
+                    #dff3ff,
+                    #fff0d9
+                );
+        }
+
+        .summary {
+            font-size: 1.15rem;
+        }
+
+        .muted {
+            color: #667085;
+        }
+
+        li {
+            margin: 8px 0;
+        }
+    </style>
 </head>
 
 <body>
-    <h1>Weather outfit</h1>
 
-    <p>
-        Run the GitHub workflow once to generate
-        today's clothing recommendation.
+    <h1>Today's outfit</h1>
+
+    <div class="muted">
+        Monday 28 September 2026
+        · updated 17:40
+    </div>
+
+    <section class="hero">
+
+        <p class="summary">
+            <strong>
+                18
+                to
+                18°C
+            </strong>
+
+            · wind up to
+            2.6 m/s
+
+            · rain
+            0.0 mm
+        </p>
+
+        <h2>Suggested clothes</h2>
+
+        <ul>
+            <li>
+                <strong>Top:</strong>
+                T-shirt or blouse with a removable light layer
+            </li>
+
+            <li>
+                <strong>Bottom:</strong>
+                Light trousers, or a dress or skirt with an optional layer
+            </li>
+
+            <li>
+                <strong>Footwear:</strong>
+                Closed shoes or trainers
+            </li>
+
+            <li>No special extras</li>
+        </ul>
+
+    </section>
+
+    
+        <section class="card">
+            <h2>Work (Kongens Lyngby)</h2>
+
+            <p>
+                <strong>
+                    18
+                    to
+                    18°C
+                </strong>
+            </p>
+
+            <p>
+                Wind up to
+                2.6 m/s
+            </p>
+
+            <p>
+                Expected rain:
+                0.0 mm
+            </p>
+        </section>
+        
+
+    <p class="muted">
+        Rule-based estimate.
+        Effective minimum used:
+        18°C.
     </p>
+
 </body>
 
 </html>
