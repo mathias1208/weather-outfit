@@ -1,0 +1,23 @@
+{
+  "timezone": "Europe/Copenhagen",
+  "locations": [
+    {
+      "name": "Home (Valby)",
+      "latitude": 55.6500,
+      "longitude": 12.5200,
+      "from": "06:00",
+      "to": "08:30"
+    },
+    {
+      "name": "Work (Kongens Lyngby)",
+      "latitude": 55.7700,
+      "longitude": 12.5000,
+      "from": "08:30",
+      "to": "18:00"
+    }
+  ],
+  "preferences": {
+    "runs_cold": false,
+    "dress_or_skirt_options": true
+  }
+}
